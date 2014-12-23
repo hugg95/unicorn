@@ -28,5 +28,6 @@
     <!--</bean>-->
 
     <import resource="spring-mvc.xml"/>
+    <import resource="spring-config.xml"/>
 
 </beans>
