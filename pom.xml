@@ -119,6 +119,27 @@
       <!--<systemPath>${project.basedir}/src/main/resources/lib/axis.jar</systemPath>-->
     <!--</dependency>-->
     <!-- local dependencies ended -->
+    <dependency>
+      <groupId>org.apache</groupId>
+      <artifactId>lucence-core</artifactId>
+      <version>4.10.3</version>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/src/main/lib/lucene-core-4.10.3.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>org.apache</groupId>
+      <artifactId>lucence-analyzers</artifactId>
+      <version>4.10.3</version>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/src/main/lib/lucene-analyzers-common-4.10.3.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>org.apache</groupId>
+      <artifactId>lucence-queries</artifactId>
+      <version>4.10.3</version>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/src/main/lib/lucene-queries-4.10.3.jar</systemPath>
+    </dependency>
 
     <dependency>
       <groupId>javax.servlet</groupId>
