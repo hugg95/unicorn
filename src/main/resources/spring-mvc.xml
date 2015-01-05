@@ -8,7 +8,7 @@
         http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <mvc:annotation-driven />
-    <mvc:resources mapping="/static/views/**" location="/static/views/"/>
+    <mvc:resources mapping="/static/view/**" location="/static/view/"/>
     <mvc:resources mapping="/static/img/**" location="/static/img/"/>
     <mvc:resources mapping="/static/js/**" location="/static/js/"/>
     <mvc:resources mapping="/static/css/**" location="/static/css/"/>
