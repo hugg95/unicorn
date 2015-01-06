@@ -44,8 +44,8 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
     <servlet>
-        <servlet-name>spiderServlet</servlet-name>
-        <servlet-class>org.lncwwn.unicorn.servlet.SpiderServlet</servlet-class>
+        <servlet-name>crawlerServlet</servlet-name>
+        <servlet-class>org.lncwwn.unicorn.servlet.CrawlerServlet</servlet-class>
         <load-on-startup>2</load-on-startup>
     </servlet>
 

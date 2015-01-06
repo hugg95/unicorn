@@ -5,7 +5,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
             http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
 
-    <bean id="spiderSeedConfig" class="org.lncwwn.unicorn.conf.SpiderSeedConfig">
+    <bean id="spiderSeedConfig" class="org.lncwwn.unicorn.conf.CrawlerSeedConfig">
         <property name="seeds">
             <set>
                 <value type="java.lang.String">http://www.infoq.com</value>

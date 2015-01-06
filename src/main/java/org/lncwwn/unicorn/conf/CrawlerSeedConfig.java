@@ -7,7 +7,7 @@ import java.util.Set;
  * config seed for spider
  * Created by victor on 12/23/14.
  */
-public class SpiderSeedConfig {
+public class CrawlerSeedConfig {
 
     private Set<String> seeds;
 
